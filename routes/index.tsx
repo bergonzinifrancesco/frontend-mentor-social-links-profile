@@ -9,12 +9,12 @@ export default function Home() {
   ];
 
   return (
-    <div role="region" class="flex flex-col bg-grey-800 w-[350px] h-fit rounded-md p-8 items-center gap-6">
-      <div role="section" class="flex flex-col items-center">
-        <img src="/avatar-jessica.jpeg" alt="Jessica avatar" class="rounded-full aspect-square w-2/5 mb-4"/>
+    <div role="region" class="flex flex-col bg-grey-800 w-[350px] h-fit rounded-xl p-10 items-center gap-6">
+      <section class="flex flex-col items-center">
+        <img src="/avatar-jessica.jpeg" alt="Jessica avatar" class="rounded-full aspect-square w-1/2 mb-4"/>
         <h1 class="font-sans font-semibold text-white tracking-wide text-xl mb-1">Jessica Randall</h1>
         <p class="text-green font-sans text-xs">London, United Kingdom</p>
-      </div>
+      </section>
       <p class="font-sans text-base text-grey-500">"Front-end developer and avid reader."</p>
       <div class="flex flex-col items-center w-full gap-4">
         {links.map(l => _SocialLink(l))}
